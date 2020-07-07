@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="col-12" style="text-align: center;  background-image: url(4.jpg) ">
+                <h1 style="color: white; margin-top: 50px; margin-bottom: 50px; color: black;" >FİLM ARŞİVİ</h1>
+            </div>
+            <div class="col-12">
+                <form style="margin-top: 20px;" id="film-form">
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Filmin ismini giriniz</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Yönetmenin ismini giriniz</label>
+                        <input type="text" class="form-control" id="director">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Afiş resminin urlsini giriniz</label>
+                        <input type="text" class="form-control" id="url">
+                      </div>
+                      <div class="form-group col-md-6">
+                        
+                      </div>
+                      <div class="form-group col-md-6">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Film Ekle</button>
+
+                    </div>
+
+                    </div>
+                </form>
+
+
+     <div class="card-body">
+                            <hr>
+                            <h5 class="card-title" id = "films-title">Filmler</h5>
+        
+                            <hr>
+                            <table class="table table-dark">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Film Afişi</th>
+                                        <th scope="col">Film İsmi</th>
+                                        <th scope="col">Yönetmen</th>
+                                        
+                                      </tr>
+                                    </thead>
+                                    <tbody id = "films">
+                                        <!-- <tr>
+                                            <td><img src="" class="img-fluid img-thumbnail"></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td><a href="#" id = "delete-film" class = "btn btn-danger">Filmi Sil</a></td>
+                                          </tr> -->
+                                          <!-- <tr>
+                                            <td><img src="" class="img-fluid img-thumbnail"></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td><a href="#" id = "delete-film" class = "btn btn-danger">Filmi Sil</a></td>
+                                          </tr> -->
+                                    </tbody>
+                                  </table>
+                            <hr>  
+                            <a id = "clear-films" class="btn btn-dark" href="#">Tüm Filmleri Temizleyin</a>               
+                        </div>
+                      </div>
+            </div>
+            
+
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="ui.js"></script>
+    <script src="film.js"></script>
+    <script src="storage.js"></script>
+
+
+    <script src="app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
